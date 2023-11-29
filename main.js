@@ -13,7 +13,7 @@ const image = document.querySelector("img")
 
 const audioTracks = ["Mick Jagger - Strange Game (OST Хромые Лошади).mp3", "Tropkillaz & J Balvin & Anitta feat. MC Zaac - Bola Rebola.mp3", "Ben E. King - Stand By Me.mp3"];
 
-const imgArray = ["2.jpeg", "1.jpg", "3.jpeg"]
+const imgArray = ["./images/2.jpeg", "./images/1.jpg", "./images/3.jpeg"]
 
 audioElement.src = audioTracks[0];
 track.textContent = audioTracks[0].slice(0, -4)
